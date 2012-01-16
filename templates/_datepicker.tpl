@@ -1,0 +1,1 @@
+<input type="text" id="{$fieldname}" name="{$fieldname}" value="{$fieldvalue|date_format:"%m/%d/%Y"}" class="x-form-text x-form-field date-picker" />

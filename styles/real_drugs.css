@@ -1,0 +1,112 @@
+* {
+	font-family: verdana,arial,helvetica; 
+	font-size: 10pt; 
+	color: #AAAAAA;
+	background-color: #222222;
+	padding-top: 40px;
+}
+
+img {border: none;}
+
+p,h1,h2,h3 {margin: 4px 0px 8px 0px;}
+
+h1 {font-size: 14pt;}
+
+body
+{
+	padding: 40px 0px 0px 0px;
+	background-color: #222222;
+}
+
+#main
+{
+	padding: 0px;
+	margin: 0px;
+	text-align: center; 
+}
+
+#stage
+{
+	width: 880px; 
+	overflow: hidden;
+	background-color: #222222;
+	padding: 15px;
+	margin: auto;
+	text-align: left;
+	border-left: solid 3px #444444;
+	border-right: solid 3px #444444;
+}
+
+#nav
+{
+	padding: 8px;
+	margin-bottom: 10px;
+	background-color: #222222;
+	border: solid 1px #aaaaaa;
+}
+
+#nav a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#nav a:hover
+{
+	text-decoration: underline;
+}
+
+#footer
+{
+	padding: 8px 0px 8px 0px;
+	margin-top: 10px;
+	border-top: solid 1px #aaaaaa;
+}
+
+#footer, #footer *
+{
+	font-size: 9px;
+}
+
+.grid_panel
+{
+	width:600px; 
+	height:300px; 
+}
+
+/* ext feedback */ 
+#feedback-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:350px;
+    z-index:20000;
+}
+
+.field_validator
+{
+	display: none;
+	font-style: italic;
+	color: Red;
+}
+
+.form_validator
+{
+	display: none;
+	background-color: Red;
+	color: #ffffff;
+	padding: 3px;
+	font-weight: bold;
+}
+
+
+/* ext form fields */
+/*  
+.x-form-element
+.x-form-field-wrap
+.x-form-text
+.x-form-field
+.x-form-trigger
+.x-form-arrow-trigger 
+*/
+
