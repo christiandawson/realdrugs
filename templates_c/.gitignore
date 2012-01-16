@@ -1,0 +1,2 @@
+# ignore all .tpl.php files in this directory, as these are all locally-created cache files
+*.tpl.php
